@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Panel Trigger</title>
+  <style>
+    /* Add this to make the popup window itself rounded */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Add rounded corners to the popup container */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2d2d2d;
+      color: white;
+      width: 200px;
+      height: 100px; /* Adjust height to fit content */
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center; /* Centers vertically */
+      
+      border-radius: 12px; /* Rounded corners for the whole popup */
+      overflow: hidden; /* Ensure content doesn't spill outside */
+    }
+
+    button {
+      padding: 8px;
+      width: 80%;
+      font-size: 16px;
+      background-color: #ffcc00;
+      color: #1d1d1d;
+      border: none;
+      border-radius: 8px; /* Rounded corners for the button */
+      cursor: pointer;
+      text-align: center;
+    }
+
+    button:hover {
+      background-color: #e6b800;
+    }
+  </style>
+</head>
+<body>
+  <h3></h3>
+  <button id="getSummaryButton">Get AI answer</button>
+  <script src="popup.js"></script>
+</body>
+</html>
