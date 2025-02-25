@@ -20,6 +20,7 @@ Here is a demo video of the extension in action:
 
 ![Extension Demo](./videos/example.mp4)
 
+---
 
 ## Installation 🛠️
 
@@ -74,12 +75,6 @@ Pin the extension by clicking the **puzzle piece** icon in the toolbar and selec
 
 - Click on the extension icon in the toolbar to open the popup.
 - Type your search query and get a real-time AI-generated summary directly in your browser.
-
----
-
-## Usage Video 📹
-
-[Click here to watch the demo video of the extension in action!](#)
 
 ---
 
