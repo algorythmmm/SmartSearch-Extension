@@ -18,8 +18,7 @@ A Chrome extension that enhances web searches by fetching and summarizing real-t
 
 Here is a demo video of the extension in action:
 
-[[![Extension Demo](./videos/video_thumbnail.png)](./videos/example.mp4)
-](https://youtu.be/AFyXFis_U00)
+[[![Extension Demo](./videos/video_thumbnail.png)](./videos/example.mp4)](https://youtu.be/AFyXFis_U00)
 ---
 
 ## Installation 🛠️
