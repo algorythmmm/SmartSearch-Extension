@@ -71,7 +71,23 @@ python server/server.py
 After the extension is loaded, you should see the extension icon in your browser’s toolbar.
 Pin the extension by clicking the **puzzle piece** icon in the toolbar and selecting the extension.
 
-### 4. Use the Extension
+### 3. Set Up the Grok API
+
+To use the extension, you need to set up the **Grok API**. This API allows you to integrate **open-source AI models** into your extension.
+
+#### Steps to create your Grok API key:
+
+1. Visit the [Grok website](https://www.grok.com/) and create an account (if you don't have one).
+2. After logging in, navigate to the **API** section to create a new API key.
+3. For this extension, you will need to specify the model. In the example setup, the model is:  
+   `model="mixtral-8x7b-32768"`.  
+   This is one of the **open-source models** available from Grok.
+4. Copy your API key and set it as an environment variable. You can do this by adding the following line to your environment configuration:
+   ```bash
+   export GROQ_API_KEY="your_api_key_here"
+
+
+### 5. Use the Extension
 
 - Click on the extension icon in the toolbar to open the popup.
 - Type your search query and get a real-time AI-generated summary directly in your browser.
