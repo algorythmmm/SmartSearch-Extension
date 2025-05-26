@@ -80,7 +80,7 @@ Pin the extension by clicking the **puzzle piece** icon in the toolbar and selec
 
 ```bash
 export GROQ_API_KEY="your_api_key_here"
-
+```
 
 ### 5. Use the Extension
 
@@ -92,15 +92,3 @@ export GROQ_API_KEY="your_api_key_here"
 ## Contributions 🤝
 
 Feel free to open issues or submit pull requests if you want to contribute. This is an open-source project, and we welcome feedback!
-
----
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact 📧
-
-For questions, you can reach out to me at [your.email@example.com](mailto:your.email@example.com).
