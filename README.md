@@ -73,15 +73,15 @@ Pin the extension by clicking the **puzzle piece** icon in the toolbar and selec
 
 ### 4. Set Up the Grok API
 
-- Go to [Grok website](https://www.grok.com/) and create an account.
+- Go to the [Grok website](https://www.grok.com/) and create an account.
 - Generate an API key under the **API** section.
 - Use the open-source model: `mixtral-8x7b-32768`.
-- Set your API key as an environment variable:
+- Open `server.py` and replace the API key placeholder with your actual key:
 
-```bash
-export GROQ_API_KEY="your_api_key_here"
+```python
+GROQ_API_KEY = "your_api_key_here"  # Replace with your Grok API key
+client = Groq(api_key=GROQ_API_KEY)
 ```
-
 ### 5. Use the Extension
 
 - Click on the extension icon in the toolbar to open the popup.
